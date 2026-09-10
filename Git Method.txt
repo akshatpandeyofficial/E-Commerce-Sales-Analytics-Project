@@ -4,3 +4,12 @@ Git Method -:
 2) git status 
 3) git commit -m "Message"
 4) git push -u origin main
+
+# For new Repo
+git init
+git branch -M main
+git remote add origin YOUR_REPOSITORY_URL
+git pull origin main --allow-unrelated-histories
+git add .
+git commit -m "Add initial project files"
+git push -u origin main
