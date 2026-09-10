@@ -1,0 +1,6 @@
+Git Method -:
+
+1) git add .
+2) git status 
+3) git commit -m "Message"
+4) git push -u origin main
