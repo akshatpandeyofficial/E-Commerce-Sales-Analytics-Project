@@ -1,40 +1,226 @@
-# E-Commerce-Sales-Analytics-Project
-E-Commerce-Sales-Analytics This repository showcases an end-to-end data analytics workflow on a raw e-commerce sales dataset. As part of a data analyst portfolio project, this repository details the process of inspecting messy transactional records, performing extensive data cleaning, and producing reliable visualizations for business reporting.
+📊 HR Employee Analytics Project
 
-# E-Commerce Sales Data Analysis & Cleaning
+An end-to-end HR Employee Analytics project focused on analyzing employee data to uncover insights related to workforce demographics, attrition, salary, performance, departments, job roles, and employee trends.
 
+The project demonstrates practical skills in data cleaning, exploratory data analysis (EDA), SQL analysis, data visualization, and dashboard development to transform raw HR data into meaningful business insights.
 
-# Project Overview
+---
 
-This repository demonstrates an end-to-end data analytics workflow on a raw, messy e-commerce sales dataset. Designed as a data analyst portfolio project, it highlights the transition from unstructured transactional records to a clean, standardized dataset ready for business intelligence and visualization.
+🎯 Project Objective
 
-# Key Workflow & Steps
+The main objective of this project is to analyze employee data and answer important HR-related questions such as:
 
-# 1. Exploratory Data Analysis (EDA)
-•	Data Auditing: Analyzed dataset schema, missing value rates, and data type mismatches across all columns.
-•	Anomaly Detection: Identified string noise in numerical fields , invalid negative quantities/totals, and non-standard date formats.
-•	Categorical Inspection: Flagged spelling and casing variations across product categories.
+- How many employees are currently working in the organization?
+- What is the overall employee attrition rate?
+- Which departments have the highest attrition?
+- What are the most common job roles?
+- How does salary vary across departments and roles?
+- What is the distribution of employee age and experience?
+- Which factors are associated with employee attrition?
+- How does employee performance vary across departments?
+- What insights can help HR teams make better workforce decisions?
 
-# 2. Data Cleaning & Transformation
-•	Header Normalization: Standardized column headers into lowercase snake_case.
-•	Deduplication: Detected and removed exact duplicate transaction rows.
-•	Data Parsing & Type Casting: Cleaned non-numeric characters from numeric columns (price, quantity), converted string fields to appropriate numeric data types, and parsed dates to YYYY-MM-DD.
-•	Data Imputation & Logic Alignment: Handled missing categorical values, mapped inconsistent categories to clean labels, and recalculated total = price * quantity to eliminate calculation discrepancies.
+---
 
-# 3. Data Visualization
-•	Order Status Distribution: Plotted visual breakdowns of orders across delivery statuses (Shipped, Delivered, Cancelled).
-•	Payment Preference: Created visualizations tracking customer payment methods.
-•	Category Metrics: Built clean distribution charts for revenue and order volume by product category.
+🛠️ Technologies Used
 
-# Repository Structure
-•	data/: Contains raw CSV data (messy_ecommerce_sales_data.csv) and the final cleaned dataset.
-•	notebooks/: Jupyter Notebook with step-by-step EDA, data cleaning code, and inline visualizations.
-•	images/: Exported chart images for documentation.
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- SQL
+- Power BI
+- Jupyter Notebook
+- Git & GitHub
 
-# Tools & Libraries
-•	Language: Python
-•	Data Processing: Pandas, NumPy
-•	Visualization: PowerBI
-•	Environment: Jupyter Notebook
+---
 
+🔄 Project Workflow
 
+Raw HR Dataset
+      ↓
+Data Cleaning
+      ↓
+Data Transformation
+      ↓
+Exploratory Data Analysis
+      ↓
+SQL Analysis
+      ↓
+KPI & Insight Generation
+      ↓
+Power BI Dashboard
+      ↓
+Business Insights
+
+---
+
+🧹 Data Cleaning
+
+The dataset was processed to improve data quality and consistency.
+
+Key data-cleaning operations included:
+
+- Handling missing values
+- Removing duplicate records
+- Correcting data types
+- Cleaning inconsistent values
+- Standardizing categorical columns
+- Handling invalid or abnormal values
+- Creating derived columns
+- Validating the cleaned dataset
+
+---
+
+📈 Exploratory Data Analysis
+
+The project explores different aspects of the workforce, including:
+
+👥 Employee Demographics
+
+- Age distribution
+- Gender distribution
+- Employee demographics
+- Marital status
+- Education background
+
+🏢 Department Analysis
+
+- Employee count by department
+- Department-wise attrition
+- Average salary by department
+- Department performance analysis
+
+💼 Job Role Analysis
+
+- Employee distribution by job role
+- Salary by job role
+- Attrition by job role
+- Performance across different roles
+
+📉 Attrition Analysis
+
+- Overall attrition rate
+- Attrition by department
+- Attrition by age group
+- Attrition by job role
+- Attrition by salary range
+- Attrition by experience/tenure
+
+💰 Salary Analysis
+
+- Average salary
+- Salary distribution
+- Department-wise salary comparison
+- Job-role salary comparison
+
+---
+
+📊 Power BI Dashboard
+
+An interactive Power BI dashboard was created to visualize the major HR KPIs and trends.
+
+Key Dashboard Metrics
+
+- 👥 Total Employees
+- 📉 Attrition Rate
+- 💰 Average Salary
+- 📊 Average Age
+- 🏢 Department-wise Employees
+- 💼 Job Role Distribution
+- 📈 Performance Analysis
+- 🔄 Employee Attrition Trends
+
+The dashboard allows users to interact with the data using filters and slicers to analyze specific departments, roles, and employee segments.
+
+---
+
+💡 Key Insights
+
+The analysis provides insights that can help HR teams understand:
+
+- Workforce composition
+- Employee retention patterns
+- Departments with higher attrition
+- Salary distribution across roles
+- Employee performance trends
+- Workforce demographics
+- Potential areas requiring HR attention
+
+---
+
+📁 Project Structure
+
+HR-Employee-Analytics/
+│
+├── 📂 Dataset/
+│   └── employee_data.csv
+│
+├── 📂 Notebook/
+│   └── HR_Employee_Analytics.ipynb
+│
+├── 📂 SQL/
+│   └── HR_Analytics_Queries.sql
+│
+├── 📂 Dashboard/
+│   └── HR_Employee_Analytics.pbix
+│
+├── 📂 Images/
+│   └── dashboard.png
+│
+└── README.md
+
+---
+
+🧠 Skills Demonstrated
+
+This project demonstrates practical experience in:
+
+- Data Cleaning
+- Data Preprocessing
+- Exploratory Data Analysis
+- Data Wrangling
+- Statistical Analysis
+- SQL Queries
+- KPI Development
+- Data Visualization
+- Power BI Dashboard Development
+- Business Intelligence
+- Business Insight Generation
+- Data Storytelling
+
+---
+
+📌 Project Highlights
+
+«Raw Data → Clean Data → Analysis → Visualization → Business Insights»
+
+This project demonstrates how raw employee data can be transformed into an interactive analytics solution that helps organizations understand their workforce and make data-driven HR decisions.
+
+---
+
+🚀 Future Improvements
+
+Possible future enhancements include:
+
+- Predictive employee attrition model
+- Employee salary prediction
+- Machine learning-based HR analytics
+- Automated data pipeline
+- Real-time HR dashboard
+- Advanced employee performance analysis
+- Cloud-based deployment
+
+---
+
+👨‍💻 Author
+
+Akshat Pandey
+
+Computer Science Engineering Student
+Interested in Data Analytics, Data Science, Machine Learning, and Data Engineering.
+
+---
+
+⭐ If you find this project useful, consider giving the repository a star!
