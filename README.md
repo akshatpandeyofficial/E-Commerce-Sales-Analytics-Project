@@ -6,6 +6,7 @@ The project demonstrates practical skills in data cleaning, exploratory data ana
 
 ---
 
+
 🎯 Project Objective
 
 The main objective of this project is to analyze employee data and answer important HR-related questions such as:
